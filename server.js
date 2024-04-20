@@ -26,7 +26,7 @@ app.use(express.urlencoded({extended: true}));
 // Cookie parser middleware
 app.use(cookieParser());
 
-app.use(session({secret: 'blahblahblah'}));
+//app.use(session({secret: 'blahblahblah'}));
 
 // app.get("/", (req, res) => {
 //   res.send("Api is running...");
